@@ -22,7 +22,6 @@ source:
 
 build:
   number: 0
-  skip: not (aarch64 or arm64)
 
 requirements:
   build:
