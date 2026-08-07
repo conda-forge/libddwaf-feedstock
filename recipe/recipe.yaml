@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.30.1"
+  version: "2.0.1"
 
 package:
   name: libddwaf
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/DataDog/libddwaf/archive/refs/tags/${{ version }}.tar.gz
-  sha256: b8290de2ff8581c9d0b28b6d815273817621cf63e7ac9d094da405cb9d730e0b
+  sha256: b17f7cc40b43f34c9286dfd0e432116400ff7f4b76c1bda3fead05099cdb32d6
   patches:
     # disable git calls, build-id and installing debug files
     - patches/no-debug.patch

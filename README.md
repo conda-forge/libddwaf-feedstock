@@ -229,6 +229,3 @@ Feedstock Maintainers
 
 * [@mgorny](https://github.com/mgorny/)
 
-
-<!-- dummy commit to enable rerendering -->
-
