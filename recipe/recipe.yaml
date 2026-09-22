@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.0.1"
+  version: "2.1.0"
 
 package:
   name: libddwaf
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/DataDog/libddwaf/archive/refs/tags/${{ version }}.tar.gz
-  sha256: b17f7cc40b43f34c9286dfd0e432116400ff7f4b76c1bda3fead05099cdb32d6
+  sha256: 0387a1a7503d87af8d78497ba5c180bbd5225227f0f285559c1a7652f9088821
   patches:
     - patches/0001-Disable-creating-debug-info-files.patch
     - patches/0002-Unbundle-the-dependencies-available-on-CF.patch
