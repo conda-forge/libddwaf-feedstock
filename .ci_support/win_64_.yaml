@@ -9,7 +9,7 @@ channel_targets:
 cxx_compiler:
 - vs2022
 libutf8proc:
-- '2.11'
+- '2.12'
 re2:
 - 2025.11.05
 target_platform:
