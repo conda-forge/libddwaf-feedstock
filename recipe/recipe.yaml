@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.1.0"
+  version: "2.2.0"
 
 package:
   name: libddwaf
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/DataDog/libddwaf/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 0387a1a7503d87af8d78497ba5c180bbd5225227f0f285559c1a7652f9088821
+  sha256: 399aeaee5407b31ae5aa51cdd26a82d3c4da8fe0d41d07d438b556853a0ee185
   patches:
     - patches/0001-Disable-creating-debug-info-files.patch
     - patches/0002-Unbundle-the-dependencies-available-on-CF.patch
@@ -17,7 +17,7 @@ source:
     - patches/0004-Remove-MT-override-for-Windows.patch
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
